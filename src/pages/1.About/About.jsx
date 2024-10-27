@@ -1,4 +1,4 @@
-import aboutImage from "../assets/about.webp"
+import aboutImage from "../1.About/about.webp"
 const About = () => {
   return (
     <section className="max-w-7xl mx-auto border-b-2 mt-20" id="about">

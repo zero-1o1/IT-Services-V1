@@ -1,4 +1,4 @@
-import { PORTFOLIO_PROJECTS } from "../constants"
+import { PORTFOLIO_PROJECTS } from "../../constants"
 
 const Portfolio = () => {
   return (

@@ -5,23 +5,20 @@ import { RiCloseLine, RiMenu3Line } from "@remixicon/react"
 const LINKS = [
   {
     name: "Services",
-    link: "#services",
+    link: "/services",
   },
   {
     name: "Portfolio",
-    link: "#portfolio",
+    link: "/portfolio",
   },
   {
     name: "About",
-    link: "#about",
+    link: "/about",
   },
-  {
-    name: "Reviews",
-    link: "#reviews",
-  },
+  
   {
     name: "Contact",
-    link: "#contact",
+    link: "/contact",
   },
 ];
 
@@ -34,9 +31,9 @@ const Navbar = () => {
     <nav className="border-b-2">
         <div className="mx-w-7xl mx-auto px-14 flex justify-between items-center py-9">
             <div className="pl-2">
-                <a href="#">
+                <a href ="/">
                     <img src={logo} width={150} height={15} alt="ITservicesLogo" />
-                </a>
+                </ a>
             </div>
 
             <div className="md:hidden">
