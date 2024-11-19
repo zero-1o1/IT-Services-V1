@@ -1,0 +1,24 @@
+.terminal-glow {
+    color: #F49526; /* Golden text color */
+    text-shadow: 
+      0 0 5px #ffbf0000,   /* Inner soft glow */
+      0 0 10px #ffae0000,  /* Outer soft glow */
+      0 0 20px #ff9d0000;  /* Subtle outer layer */
+    font-family: 'Courier New', Courier, monospace; /* Retro terminal font */
+    animation: terminal-glow-pulse 1.5s infinite;
+  }
+  
+  @keyframes terminal-glow-pulse {
+    0%, 100% {
+      text-shadow: 
+        0 0 5px #ffbf0000, 
+        0 0 10px #ffae0008, 
+        0 0 20px #ff9d0006;
+    }
+    50% {
+      text-shadow: 
+        0 0 7px #ffcc0026, 
+        0 0 15px #ffb70047, 
+        0 0 25px #ffaa0043;
+    }
+  }

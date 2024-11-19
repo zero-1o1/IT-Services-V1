@@ -2,6 +2,7 @@ import { RiFacebookBoxFill, RiInstagramFill, RiTwitterFill, RiXboxFill, RiXingLi
 
 const Footer = () => {
   return (
+    <div className="bg-gradient-to-bl from-Jet via-Ultjet to-Ult">
     <footer className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center border-t-2 py-4">
             <div className="flex space-x-6 mb-2">
@@ -27,6 +28,7 @@ const Footer = () => {
             <p className="text-sm">&copy; 2024 IT-services. All rights reserved.</p>
         </div>
     </footer>
+    </div>
   )
 }
 

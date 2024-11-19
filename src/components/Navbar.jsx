@@ -28,6 +28,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
   return (
+    <div className="bg-gradient-to-bl from-Jet via-Ultjet to-Ult">
     <nav className="border-b-2">
         <div className="mx-w-7xl mx-auto px-14 flex justify-between items-center py-9">
             <div className="pl-2">
@@ -60,6 +61,7 @@ const Navbar = () => {
                 ))}
             </div>
     </nav>
+   </div>
   )
 }
 
