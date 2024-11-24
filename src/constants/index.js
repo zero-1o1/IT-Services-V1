@@ -42,7 +42,7 @@ export const LINKS = [
 
 export const HERO_CONTENT = {
   title: "IT services",
-  subtitle: "(subtitle here)",
+  subtitle: "<Empowering Your Business with Innovative IT Solutions>",
   Image: Hero,
 };
 

@@ -2,10 +2,10 @@ import { RiFacebookBoxFill, RiInstagramFill, RiTwitterFill, RiXboxFill, RiXingLi
 
 const Footer = () => {
   return (
-    <div className="bg-gradient-to-bl from-Jet via-Ultjet to-Ult">
+    <div className="bg-TermDrkBrn">
     <footer className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center border-t-2 py-4">
-            <div className="flex space-x-6 mb-2">
+        <div className="flex flex-col md:flex-row justify-between items-center border-t-2 border-t-black py-4">
+            <div className="flex space-x-6 mb-2 text-TermTxtGld">
                 <a href="https://www.facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
                     <RiInstagramFill />
                   </a>
             </div>
-            <p className="text-sm">&copy; 2024 IT-services. All rights reserved.</p>
+            <p className="text-sm text-TermTxtGld">&copy; 2024 IT-services. All rights reserved.</p>
         </div>
     </footer>
     </div>

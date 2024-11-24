@@ -28,9 +28,9 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
   return (
-    <div className="bg-gradient-to-bl from-Jet via-Ultjet to-Ult">
-    <nav className="border-b-2">
-        <div className="mx-w-7xl mx-auto px-14 flex justify-between items-center py-9">
+    <div className="bg-TermDrkBrn">
+    <nav className="border-b-black border-b-2">
+        <div className="mx-w-7xl mx-auto px-14 flex justify-between items-center py-9 text-TermTxtGld font-terminal">
             <div className="pl-2">
                 <a href ="/">
                     <img src={logo} width={150} height={15} alt="ITservicesLogo" />
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className="hidden md:flex space-x-8 md:space-x-4 pr-2">
+            <div className="hidden md:flex space-x-8 md:space-x-4 pr-2 ">
                 {LINKS.map((link, index) =>(
                     <a key={index} href={link.link} className="uppercase text-base font-medium">
                         {link.name}
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
 
         <div className={`${
-            isOpen ? "block" : "hidden" } md:hidden absolute bg-neutral-50 w-full py-5 px-4 mt-2 border-b-4`}>
+            isOpen ? "block" : "hidden" } md:hidden absolute bg-TermDrkBrn text-TermTxtGld w-full py-5 px-4 mt-2 border-b-4`}>
                 {LINKS.map((link, index) => (
                     <a key={index} href={link.link} className="uppercase text-lg font-medium block py-2 tracking-wide">
                         {link.name}

@@ -2,10 +2,10 @@ import { SERVICES_CONTENT } from "../../constants"
 
 const Services = () => {
   return (
-    <div className="bg-gradient-to-bl from-Jet via-Ultjet to-Ult">
+    <div className="bg-TermDrkBrn text-TermTxtGld">
     <section className="max-w-7xl mx-auto border-b-2" id="services">
-        <div className="my-20">
-            <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-20">Our IT services.</h2>
+        <div className="border-y-2 border-black">
+            <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-20 text-TermTxtGld">Our IT services.</h2>
             {SERVICES_CONTENT.map((service, index) => (
                 <div key={index} className="mb-12 mx-4 flex flex-col lg:flex-row">
                     <div className={`lg:w-1/2 mb-4 lg:mb-0 ${

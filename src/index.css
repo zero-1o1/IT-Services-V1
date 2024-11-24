@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/terminal');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    font-family: "Noto sans", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     background: #fafaf9;
+}
+
+/* Add Terminal font selectively */
+.font-terminal {
+    font-family: 'terminal', sans-serif;
 }

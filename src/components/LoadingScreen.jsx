@@ -48,7 +48,7 @@ const LoadingScreen = ({ onComplete }) => {
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black text-yellow-400 text-4xl">
+    <div className="fixed inset-0 flex items-center justify-center bg-TermDrkBrn text-TermTxtGld text-4xl">
       <h1 ref={headerRef}></h1>
     </div>
   );
